@@ -13,7 +13,7 @@ let package = Package(
             targets: ["FPWCSApi2SwiftWrapper"]),
     ],
     dependencies: [
-        .package(name: "SocketRocket", url: "https://github.com/flashphoner/SocketRocketSPM.git")
+        .package(name: "SocketRocket", url: "https://github.com/flashphoner/SocketRocketSPM.git", from: "1.0.0")
     ],
     targets: [
         .binaryTarget(
